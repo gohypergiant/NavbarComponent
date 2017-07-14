@@ -47,7 +47,7 @@
 ###
 
 defaults =
-	buttonCount: 2
+	buttonCount: 0
 	title: "Large Title"
 	searchLabel: "Search"
 	style: "light"
