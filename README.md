@@ -6,7 +6,7 @@
 
 The NavbarComponent module allows you to generate an iOS-style navigation bar with title, action buttons and search bar. Scroll effects mimic those on iOS, and views can be navigated forward and reverse.
 	
-<img src="https://user-images.githubusercontent.com/935/28231662-46b639f2-68b2-11e7-8ae7-c3bef444be02.giff" width="500" style="display: block; margin: auto" alt="NavbarComponent preview" />	
+<img src="https://user-images.githubusercontent.com/935/28231662-46b639f2-68b2-11e7-8ae7-c3bef444be02.gif" width="500" style="display: block; margin: auto" alt="NavbarComponent preview" />	
 
 ### Installation
 
