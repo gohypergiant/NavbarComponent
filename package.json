@@ -1,0 +1,34 @@
+{
+  "name": "@blackpixel/framer-navbarcomponent",
+  "version": "0.0.0",
+  "description": "Generate a scrolling carousel of items in a variety of configurations.",
+  "homepage": "https://github.com/bpxl-labs/NavbarComponent",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bpxl-labs/NavbarComponent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bpxl-labs/NavbarComponent/issues"
+  },
+  "main": "NavbarComponent.coffee",
+  "author": "Black Pixel",
+  "license": "MIT",
+  "keywords": [
+    "framerjs",
+    "framer",
+    "coffeescript",
+    "navbar",
+    "ios"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "coffeeify": "^2.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  }
+}
