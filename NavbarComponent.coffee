@@ -375,6 +375,19 @@ class NavbarComponent extends Layer
 
 		# end @scrollWith()
 
+		resetTitle = () =>
+			if @.navLevel == 1
+				@.bkgd.height = @.height + Screen.height
+				@.bkgd.y = Align.bottom
+				@.title.scale = 1
+				@.title.y = 2
+				@.searchBar.y = Align.bottom(-16)
+				@.searchBar.opacity = 1
+				@.clippingFrame.height = @.height
+				@.clippingFrame.y = 0
+
+		# end resetTitle()
+
 		animateToNextTitle = (newTitle = "", oldTitle = "", titleLayer = @.title) =>
 			@.smallTitle.opacity = 0
 			@.title.opacity = 0
@@ -411,6 +424,7 @@ class NavbarComponent extends Layer
 		# end animateToNextTitle()
 
 		animateToPreviousTitle = (prevBackLabel = "", currentBackLabel = "", titleLayer = @.title) =>
+			resetTitle()
 			@.title.opacity = 0
 			@.smallTitle.opacity = 0
 			@.backLabel.opacity = 0
