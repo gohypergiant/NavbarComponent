@@ -4,7 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](.github/CONTRIBUTING.md)
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]()
 
-The NavbarComponent module allows you to generate an iOS-style navigation bar with title, action buttons and search bar. Scroll effects mimic those on iOS, and views can be navigated forward and reverse.
+The NavbarComponent module allows you to generate an iOS-style navigation bar with title, action buttons, and search bar. Scroll effects mimic those on iOS, and views can be navigated forward and reverse.
 	
 <img src="https://user-images.githubusercontent.com/935/28231662-46b639f2-68b2-11e7-8ae7-c3bef444be02.gif" width="500" style="display: block; margin: auto" alt="NavbarComponent preview" />	
 
@@ -68,14 +68,14 @@ myNavbar.scrollWith(layer) # layer will be the name of your FlowComponent or Scr
 
 #### Navigation effects
 
-To mimic view-by-view navigation, use `showNext()` and `showPrevious()`. When using `showNext()`, supply a title for the next view. The NavbarComponent will store these for purposes of returning to them with `showPrevious()`.
+To mimic view-by-view navigation, use `showNext()` and `showPrevious(`). When using `showNext()`, provide a title for the next view. NavbarComponent will store these for purposes of returning to them with `showPrevious()`.
 
 ```coffeescript
 myNavbar.showNext("Your title here")
 myNavbar.showPrevious()
 ```
 
-For help in debugging, you can inspect NavbarComponent's stored list of titles.
+For debugging help, you can inspect NavbarComponent's stored list of titles.
 
 ```coffeescript
 print myNavbar.history
@@ -93,7 +93,7 @@ print myNavbar.search
 ```
 
 #### Button images
-All images are assumed to live in the images directory and be numbered starting with zero. You may supply a prefix and suffix. If your button images are located in a `buttons` directory within `images` and named:
+All images are assumed to live in the `images` directory and to be numbered starting with zero. You may supply a prefix and suffix. If your button images are located in a `buttons` directory within `images` and named:
 
 ```coffeescript
 item0.png
@@ -109,7 +109,7 @@ Do not include the `images` directory in `imagePrefix`.
 Action button assets are assumed to be 24pt by 24pt. If yours are of another size, supply the correct dimension with `buttonSize: <number>`. This will prevent your assets from being scaled.
 
 #### Button actions
-The back button that appears on secondary views can be given an action, as can individual action buttons. Most likely you will want the back button to activate the NavbarComponent's `showPrevious()` feature, along with any navigation relevant to your prototype (e.g., the `showPrevious()` FlowComponent feature). Action button actions should be arranged in a comma-separated array, one action per line.
+The back button that appears on secondary views can be given an action, as can individual action buttons. Most likely, you will want the back button to activate the NavbarComponent's `showPrevious()` feature, along with any navigation relevant to your prototype (e.g., the `showPrevious()` FlowComponent feature). Action button actions should be arranged in a comma-separated array, one action per line.
 
 ```coffeescript
 backAction: -> myNavbar.showPrevious()
