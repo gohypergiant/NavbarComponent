@@ -1,0 +1,14 @@
+{
+    "name": "NavbarComponent",
+    "description": "Generate an iOS-style navigation bar with title, action buttons, and search bar.",
+    "author": "John Marstall",
+
+    "require": "NavbarComponent = require 'NavbarComponent'",
+		"install": [
+			"NavbarComponent.coffee",
+			"README.md"
+		],
+    "example": "example.coffee",
+
+    "thumb": "thumb.png"
+}
