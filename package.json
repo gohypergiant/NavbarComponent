@@ -1,6 +1,6 @@
 {
   "name": "@blackpixel/framer-navbarcomponent",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate an iOS-style navigation bar with title, action buttons and search bar.",
   "homepage": "https://github.com/bpxl-labs/NavbarComponent",
   "repository": {
