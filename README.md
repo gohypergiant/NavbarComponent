@@ -10,6 +10,13 @@ The NavbarComponent module allows you to generate an iOS-style navigation bar wi
 
 ### Installation
 
+#### NPM Installation
+
+```
+$ cd /your/framer/project
+$ npm i @blackpixel/framer-navbarcomponent
+```
+
 #### Manual installation
 
 Copy or save the `NavbarComponent` file into your project's `modules` folder.
@@ -19,7 +26,10 @@ Copy or save the `NavbarComponent` file into your project's `modules` folder.
 In your Framer project, add the following:
 
 ```coffeescript
-myNavbar = require "NavbarComponent"
+# If you manually installed
+NavbarComponent = require "NavbarComponent"
+# else
+NavbarComponent = require "@blackpixel/framer-navbarcomponent"
 ```
 
 ### API
