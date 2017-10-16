@@ -4,7 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](.github/CONTRIBUTING.md)
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]()
 
-<a href="https://open.framermodules.com/mapboxlayer"><img alt="Install with Framer Modules" src="https://www.framermodules.com/assets/badge@2x.png" width='160' height='40' /></a>
+<a href="https://open.framermodules.com/navbarcomponent"><img alt="Install with Framer Modules" src="https://www.framermodules.com/assets/badge@2x.png" width='160' height='40' /></a>
 
 The NavbarComponent module allows you to generate an iOS-style navigation bar with title, action buttons, and search bar. Scroll effects mimic those on iOS, and views can be navigated forward and reverse.
 	
