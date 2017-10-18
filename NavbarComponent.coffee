@@ -507,4 +507,4 @@ class NavbarComponent extends Layer
 				@layout()
 
 	@define 'search', get: () -> document.getElementById('search').value
-module.exports = NavigationBarComponent
+module.exports = NavbarComponent
