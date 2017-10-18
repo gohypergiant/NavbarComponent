@@ -1,3 +1,5 @@
+NavbarComponent = require "NavbarComponent"
+
 ############################################
 # Example usage.
 # For all features, please check the README.
